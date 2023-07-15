@@ -1,0 +1,1171 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='user' inline='true' name='federated.0eovlb1105jr8s17fl7rq0olnuaw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='postgres.1hlii530m96brj14joon61jc7x5o'>
+            <connection authentication='username-password' class='postgres' dbname='postgres' one-time-sql='' port='5433' server='localhost' username='user' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.1hlii530m96brj14joon61jc7x5o' name='tbl_lime_resources' table='[public].[tbl_lime_resources]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='postgres.1hlii530m96brj14joon61jc7x5o' name='tbl_lime_resources' table='[public].[tbl_lime_resources]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stationcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stationcode]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>stationcode</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ebike</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ebike]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>ebike</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mechanical</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mechanical]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>mechanical</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>y</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[y]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>y</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>x</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[x]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>x</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duedate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duedate]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>duedate</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numbikesavailable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[numbikesavailable]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>numbikesavailable</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numdocksavailable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[numdocksavailable]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>numdocksavailable</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capacity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[capacity]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>capacity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_renting</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_renting]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>is_renting</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_installed</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_installed]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>is_installed</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nom_arrondissement_communes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nom_arrondissement_communes]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>nom_arrondissement_communes</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_returning</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_returning]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>is_returning</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>record_timestamp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[record_timestamp]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>record_timestamp</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_47200F7365F642EB97985180B58BF211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='tbl_lime_resources' datatype='table' name='[__tableau_internal_object_id__].[tbl_lime_resources_47200F7365F642EB97985180B58BF211]' role='measure' type='quantitative' />
+      <column caption='Capacity' datatype='string' name='[capacity]' role='dimension' type='nominal' />
+      <column caption='Duedate' datatype='string' name='[duedate]' role='dimension' type='nominal' />
+      <column caption='Ebike' datatype='string' name='[ebike]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Is Installed' datatype='string' name='[is_installed]' role='dimension' type='nominal' />
+      <column caption='Is Renting' datatype='string' name='[is_renting]' role='dimension' type='nominal' />
+      <column caption='Is Returning' datatype='string' name='[is_returning]' role='dimension' type='nominal' />
+      <column caption='Mechanical' datatype='string' name='[mechanical]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Nom Arrondissement Communes' datatype='string' name='[nom_arrondissement_communes]' role='dimension' type='nominal' />
+      <column caption='Numbikesavailable' datatype='string' name='[numbikesavailable]' role='dimension' type='nominal' />
+      <column caption='Numdocksavailable' datatype='string' name='[numdocksavailable]' role='dimension' type='nominal' />
+      <column caption='Record Timestamp' datatype='string' name='[record_timestamp]' role='dimension' type='nominal' />
+      <column caption='Stationcode' datatype='string' name='[stationcode]' role='dimension' type='nominal' />
+      <column caption='X' datatype='string' name='[x]' role='dimension' type='nominal' />
+      <column caption='Y' datatype='string' name='[y]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tbl_lime_resources' id='tbl_lime_resources_47200F7365F642EB97985180B58BF211'>
+            <properties context=''>
+              <relation connection='postgres.1hlii530m96brj14joon61jc7x5o' name='tbl_lime_resources' table='[public].[tbl_lime_resources]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='tbl_lime_resources (postgres)' inline='true' name='federated.1982s4u1ivbh6i1fmlz7x0o4l1qc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='postgres.0cgserj0wbkvrg12eeumn0lmsdpz'>
+            <connection authentication='username-password' class='postgres' dbname='postgres' one-time-sql='' port='5433' server='localhost' username='user' />
+          </named-connection>
+          <named-connection caption='localhost (2)' name='postgres.15y93mw0ezd2rz0zln3qj0a9kljt'>
+            <connection authentication='username-password' class='postgres' dbname='postgres' one-time-sql='' port='5433' server='localhost' username='user' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.0cgserj0wbkvrg12eeumn0lmsdpz' name='tbl_lime_resources' table='[public].[tbl_lime_resources]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='postgres.0cgserj0wbkvrg12eeumn0lmsdpz' name='tbl_lime_resources' table='[public].[tbl_lime_resources]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stationcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stationcode]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>stationcode</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ebike</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ebike]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>ebike</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mechanical</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mechanical]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>mechanical</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>y</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[y]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>y</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>x</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[x]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>x</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duedate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duedate]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>duedate</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numbikesavailable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[numbikesavailable]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>numbikesavailable</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numdocksavailable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[numdocksavailable]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>numdocksavailable</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capacity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[capacity]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>capacity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_renting</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_renting]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>is_renting</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_installed</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_installed]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>is_installed</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nom_arrondissement_communes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nom_arrondissement_communes]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>nom_arrondissement_communes</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_returning</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_returning]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>is_returning</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>record_timestamp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[record_timestamp]</local-name>
+            <parent-name>[tbl_lime_resources]</parent-name>
+            <remote-alias>record_timestamp</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='tbl_lime_resources' datatype='table' name='[__tableau_internal_object_id__].[tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0]' role='measure' type='quantitative' />
+      <column caption='Capacity' datatype='integer' datatype-customized='true' name='[capacity]' role='dimension' type='ordinal' />
+      <column caption='Duedate' datatype='string' name='[duedate]' role='dimension' type='nominal' />
+      <column caption='Ebike' datatype='integer' datatype-customized='true' name='[ebike]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Is Installed' datatype='string' name='[is_installed]' role='dimension' type='nominal' />
+      <column caption='Is Renting' datatype='string' name='[is_renting]' role='dimension' type='nominal' />
+      <column caption='Is Returning' datatype='string' name='[is_returning]' role='dimension' type='nominal' />
+      <column caption='Mechanical' datatype='integer' datatype-customized='true' name='[mechanical]' role='dimension' type='ordinal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Nom Arrondissement Communes' datatype='string' name='[nom_arrondissement_communes]' role='dimension' type='nominal' />
+      <column caption='Numbikesavailable' datatype='integer' datatype-customized='true' name='[numbikesavailable]' role='dimension' type='ordinal' />
+      <column caption='Numdocksavailable' datatype='integer' datatype-customized='true' name='[numdocksavailable]' role='dimension' type='ordinal' />
+      <column caption='Record Timestamp' datatype='string' name='[record_timestamp]' role='dimension' type='nominal' />
+      <column caption='Stationcode' datatype='integer' datatype-customized='true' name='[stationcode]' role='dimension' type='ordinal' />
+      <column caption='X' datatype='string' name='[x]' role='dimension' type='nominal' />
+      <column caption='Y' datatype='string' name='[y]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tbl_lime_resources' id='tbl_lime_resources_E8E7138D4BC64327ABF6D1F6A1F125E0'>
+            <properties context=''>
+              <relation connection='postgres.0cgserj0wbkvrg12eeumn0lmsdpz' name='tbl_lime_resources' table='[public].[tbl_lime_resources]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Lime_online' inline='true' name='federated.03z0y5h0s0obuh14uygai069wo4x' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Lime_online' name='textscan.1tyjig507vpqh31gtgur10xbxurj'>
+            <connection class='textscan' directory='D:/workflowlab/data/Lime_online' filename='Lime_online.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1tyjig507vpqh31gtgur10xbxurj' name='Lime_online.csv' table='[Lime_online#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='integer' name='stationcode' ordinal='1' />
+            <column datatype='integer' name='ebike' ordinal='2' />
+            <column datatype='integer' name='mechanical' ordinal='3' />
+            <column datatype='real' name='x' ordinal='4' />
+            <column datatype='real' name='y' ordinal='5' />
+            <column datatype='string' name='duedate' ordinal='6' />
+            <column datatype='integer' name='numbikesavailable' ordinal='7' />
+            <column datatype='integer' name='numdocksavailable' ordinal='8' />
+            <column datatype='integer' name='capacity' ordinal='9' />
+            <column datatype='string' name='is_renting' ordinal='10' />
+            <column datatype='string' name='is_installed' ordinal='11' />
+            <column datatype='string' name='nom_arrondissement_communes' ordinal='12' />
+            <column datatype='string' name='is_returning' ordinal='13' />
+            <column datatype='datetime' name='record_timestamp' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1tyjig507vpqh31gtgur10xbxurj' name='Lime_online.csv' table='[Lime_online#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='integer' name='stationcode' ordinal='1' />
+            <column datatype='integer' name='ebike' ordinal='2' />
+            <column datatype='integer' name='mechanical' ordinal='3' />
+            <column datatype='real' name='x' ordinal='4' />
+            <column datatype='real' name='y' ordinal='5' />
+            <column datatype='string' name='duedate' ordinal='6' />
+            <column datatype='integer' name='numbikesavailable' ordinal='7' />
+            <column datatype='integer' name='numdocksavailable' ordinal='8' />
+            <column datatype='integer' name='capacity' ordinal='9' />
+            <column datatype='string' name='is_renting' ordinal='10' />
+            <column datatype='string' name='is_installed' ordinal='11' />
+            <column datatype='string' name='nom_arrondissement_communes' ordinal='12' />
+            <column datatype='string' name='is_returning' ordinal='13' />
+            <column datatype='datetime' name='record_timestamp' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stationcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stationcode]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>stationcode</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ebike</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ebike]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>ebike</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mechanical</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mechanical]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>mechanical</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>x</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[x]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>x</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>y</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[y]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>y</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duedate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duedate]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>duedate</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numbikesavailable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numbikesavailable]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>numbikesavailable</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numdocksavailable</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numdocksavailable]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>numdocksavailable</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capacity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[capacity]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>capacity</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_renting</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_renting]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>is_renting</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_installed</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_installed]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>is_installed</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nom_arrondissement_communes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nom_arrondissement_communes]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>nom_arrondissement_communes</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is_returning</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[is_returning]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>is_returning</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>record_timestamp</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[record_timestamp]</local-name>
+            <parent-name>[Lime_online.csv]</parent-name>
+            <remote-alias>record_timestamp</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Lime_online.csv' datatype='table' name='[__tableau_internal_object_id__].[Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A]' role='measure' type='quantitative' />
+      <column caption='Capacity' datatype='integer' name='[capacity]' role='measure' type='quantitative' />
+      <column caption='Duedate' datatype='string' name='[duedate]' role='dimension' type='nominal' />
+      <column caption='Ebike' datatype='integer' name='[ebike]' role='measure' type='quantitative' />
+      <column caption='Is Installed' datatype='string' name='[is_installed]' role='dimension' type='nominal' />
+      <column caption='Is Renting' datatype='string' name='[is_renting]' role='dimension' type='nominal' />
+      <column caption='Is Returning' datatype='string' name='[is_returning]' role='dimension' type='nominal' />
+      <column caption='Mechanical' datatype='integer' name='[mechanical]' role='measure' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Nom Arrondissement Communes' datatype='string' name='[nom_arrondissement_communes]' role='dimension' type='nominal' />
+      <column caption='Numbikesavailable' datatype='integer' name='[numbikesavailable]' role='measure' type='quantitative' />
+      <column caption='Numdocksavailable' datatype='integer' name='[numdocksavailable]' role='measure' type='quantitative' />
+      <column caption='Record Timestamp' datatype='datetime' name='[record_timestamp]' role='dimension' type='ordinal' />
+      <column caption='Stationcode' datatype='integer' name='[stationcode]' role='measure' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[x]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[y]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Lime_online.csv' id='Lime_online.csv_B2F98C5E3FF34BA696D6F86AC342197A'>
+            <properties context=''>
+              <relation connection='textscan.1tyjig507vpqh31gtgur10xbxurj' name='Lime_online.csv' table='[Lime_online#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='name' ordinal='0' />
+                  <column datatype='integer' name='stationcode' ordinal='1' />
+                  <column datatype='integer' name='ebike' ordinal='2' />
+                  <column datatype='integer' name='mechanical' ordinal='3' />
+                  <column datatype='real' name='x' ordinal='4' />
+                  <column datatype='real' name='y' ordinal='5' />
+                  <column datatype='string' name='duedate' ordinal='6' />
+                  <column datatype='integer' name='numbikesavailable' ordinal='7' />
+                  <column datatype='integer' name='numdocksavailable' ordinal='8' />
+                  <column datatype='integer' name='capacity' ordinal='9' />
+                  <column datatype='string' name='is_renting' ordinal='10' />
+                  <column datatype='string' name='is_installed' ordinal='11' />
+                  <column datatype='string' name='nom_arrondissement_communes' ordinal='12' />
+                  <column datatype='string' name='is_returning' ordinal='13' />
+                  <column datatype='datetime' name='record_timestamp' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Online Capacity'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Lime_online' name='federated.03z0y5h0s0obuh14uygai069wo4x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03z0y5h0s0obuh14uygai069wo4x'>
+            <column caption='Capacity' datatype='integer' name='[capacity]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column caption='Numbikesavailable' datatype='integer' name='[numbikesavailable]' role='measure' type='quantitative' />
+            <column-instance column='[capacity]' derivation='Sum' name='[sum:capacity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[numbikesavailable]' derivation='Sum' name='[sum:numbikesavailable:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03z0y5h0s0obuh14uygai069wo4x].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.03z0y5h0s0obuh14uygai069wo4x].[sum:capacity:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.03z0y5h0s0obuh14uygai069wo4x].[sum:numbikesavailable:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.03z0y5h0s0obuh14uygai069wo4x].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03z0y5h0s0obuh14uygai069wo4x].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.03z0y5h0s0obuh14uygai069wo4x].[Multiple Values]</rows>
+        <cols>([federated.03z0y5h0s0obuh14uygai069wo4x].[none:name:nk] / [federated.03z0y5h0s0obuh14uygai069wo4x].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{EDF2E8EB-856B-4F1E-B39A-CA9DF98B52A2}' />
+    </worksheet>
+    <worksheet name='Online Location'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Lime_online' name='federated.03z0y5h0s0obuh14uygai069wo4x' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.03z0y5h0s0obuh14uygai069wo4x'>
+            <column caption='Capacity' datatype='integer' name='[capacity]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[x]' derivation='None' name='[none:x:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[y]' derivation='None' name='[none:y:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[capacity]' derivation='Sum' name='[sum:capacity:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[x]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[y]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03z0y5h0s0obuh14uygai069wo4x].[none:name:nk]' />
+              <size column='[federated.03z0y5h0s0obuh14uygai069wo4x].[sum:capacity:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.03z0y5h0s0obuh14uygai069wo4x].[none:y:qk]</rows>
+        <cols>[federated.03z0y5h0s0obuh14uygai069wo4x].[none:x:qk]</cols>
+      </table>
+      <simple-id uuid='{FBE67C2A-67C4-4A2C-8104-81EA8C550D4C}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tbl_lime_resources (postgres)' name='federated.1982s4u1ivbh6i1fmlz7x0o4l1qc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1982s4u1ivbh6i1fmlz7x0o4l1qc'>
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[numbikesavailable]' derivation='None' name='[none:numbikesavailable:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[numdocksavailable]' derivation='None' name='[none:numdocksavailable:ok]' pivot='key' type='ordinal' />
+            <column caption='Numbikesavailable' datatype='integer' datatype-customized='true' name='[numbikesavailable]' role='dimension' type='ordinal' />
+            <column caption='Numdocksavailable' datatype='integer' datatype-customized='true' name='[numdocksavailable]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1982s4u1ivbh6i1fmlz7x0o4l1qc].[none:name:nk]</rows>
+        <cols>([federated.1982s4u1ivbh6i1fmlz7x0o4l1qc].[none:numbikesavailable:ok] / [federated.1982s4u1ivbh6i1fmlz7x0o4l1qc].[none:numdocksavailable:ok])</cols>
+      </table>
+      <simple-id uuid='{5A780DD2-EA81-4DD7-B437-2972FE644E55}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' name='Online Capacity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='153'>
+            <card pane-specification-id='0' param='[federated.03z0y5h0s0obuh14uygai069wo4x].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EFAF9FD7-3000-492B-B5F4-ADFEE9BB8638}' />
+    </window>
+    <window class='worksheet' name='Online Location'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03z0y5h0s0obuh14uygai069wo4x].[none:name:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.03z0y5h0s0obuh14uygai069wo4x].[sum:capacity:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{77C91A73-A965-4764-8FB1-31D0FD0C59F1}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{86CF2C7F-F89E-494D-8F5C-1D06DE83FC20}' />
+    </window>
+  </windows>
+</workbook>
